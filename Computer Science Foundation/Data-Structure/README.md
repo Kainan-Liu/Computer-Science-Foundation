@@ -1,4 +1,5 @@
 # Data Structure
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/9b79f144-c34b-4d70-a294-c8206454ebcd)
 
 ## Summary
 
