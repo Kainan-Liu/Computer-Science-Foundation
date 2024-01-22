@@ -2,7 +2,7 @@
 
 数组：将**相同类型**的元素存储在**连续的存储空间**中
 
-![image-20240122134547023](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240122134547023.png)
+![image-20240122134547023](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/48c1e227-d56a-4594-a4b9-799498fed9d3)
 
 ## Initialization
 
@@ -21,7 +21,8 @@
 
 给定数组内存地址(首元素内存地址)和被访问元素的索引(**索引本质是内存地址的偏移量**),即可计算被访问元素在内存中的地址，从而直接访问该元素
 
-![image-20240122184034538](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240122184034538.png)
+![image-20240122184034538](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/9a0906f4-a857-456e-8338-71ca98eb9c54)
+
 
 数组中访问元素非常高效，我们可以在 O(1) 时间内随机访问数组中的任意一个元素。
 
