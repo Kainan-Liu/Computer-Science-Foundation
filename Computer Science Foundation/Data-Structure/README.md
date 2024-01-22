@@ -48,7 +48,7 @@
 
 浮点数的编码由 1 位符号位、8 位指数位和 23 位分数位构成。由于存在指数位，因此浮点数的取值范围远大于整数，代价是牺牲了精度。
 
-![image-20240122114335804](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240122114335804.png)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/d1c1fedf-4bd1-4be3-aff4-5041c5877e4b)
 
 --------
 
