@@ -23,7 +23,6 @@
 
 ![image-20240122184034538](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/9a0906f4-a857-456e-8338-71ca98eb9c54)
 
-
 数组中访问元素非常高效，我们可以在 O(1) 时间内随机访问数组中的任意一个元素。
 
 ## 增
