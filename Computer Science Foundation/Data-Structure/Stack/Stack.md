@@ -9,7 +9,7 @@
 
 将元素添加到栈顶的操作称为**入栈**，删除栈顶元素的操作称为**出栈**
 
-![image-20240125111115491](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240125111115491.png)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/0a74ac2b-c5ba-49f9-abf2-0b1bc7d64f06)
 
 入栈：push(), 时间复杂度O(1)
 
@@ -25,7 +25,7 @@
 
 基于链表实现的栈，执行入栈操作，可以使用“**头插法”**
 
-![image-20240125112711634](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240125112711634.png)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/1f484f9e-a387-4aad-a623-b5bd026b0a08)
 
 - 将待添加的元素构造成链表的节点对象
 - 将节点添加至链表头部
