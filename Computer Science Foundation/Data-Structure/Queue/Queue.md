@@ -7,7 +7,7 @@
 
 将元素插入队尾的操作称为“入队”(push)，删除队首元素称为“出队”(pop)
 
-![image-20240126174134024](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240126174134024.png)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/fef25edb-cf67-4168-8f69-14727a231bc6)
 
 Python中Collections库提供了deque类，我们可以将其视为队列使用
 
@@ -54,7 +54,7 @@ queue.popleft()
 
 对于数组而言，在进行删除操作时，时间复杂度O(n); 为了防止出队操作效率较低，我们可以定义一个变量`front`指向队首元素的索引，`front + size`就指向了数组中的最后一个元素的下一个位置`rear`
 
-![image-20240126182417980](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240126182417980.png)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/f582c098-f00d-49ea-9a7c-a3ba5e0b540e)
 
 - front: 指向队首元素
 - rear：指向队尾元素的下一个位置
