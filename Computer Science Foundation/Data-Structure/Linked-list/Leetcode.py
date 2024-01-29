@@ -39,7 +39,7 @@ class Solution(object):
 # 1. 由于栈是一种遵循先入后出逻辑的数据结构, 因此可以先将链表元素从头到尾压入栈, 之后再依次出栈即可实现倒序访问链表元素
 # 2. 递归
 class Solution(object):
-    def reverseLinkedList(self, head: Optional[ListNode] = None):
+    def reverseLinkedListval(self, head: Optional[ListNode] = None):
         stack = []
         while head:
             stack.append(head.val)
@@ -47,10 +47,19 @@ class Solution(object):
         return stack[::-1]
     
 class Solution(object):
-    def reverseLinkedList(self, head: Optional[ListNode] = None):
+    def reverseLinkedListval(self, head: Optional[ListNode] = None):
         if not head:
             return []
         num = head.val
-        return self.reverseLinkedList(head.next) + [num]
+        return self.reverseLinkedListval(head.next) + [num]
     
 # 单链表逆序--头插法
+class Solution(object):
+    def reverseLinkedList(self, head: Optional[ListNode]=None):
+        pre = None
+        cur = head
+        while cur:
+            temp = cur.next 
+            cur.next = pre
+            pre, cur = cur, temp
+        return pre          
