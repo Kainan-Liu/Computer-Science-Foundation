@@ -14,7 +14,7 @@
 
 哈希函数将key的值域空间映射到数组索引的值域空间(较大的输入空间映射到较小的输入空间)，我们可以**通过哈希函数得到key值对应的键值对在数组中的存储位置**，从而实现元素的高效查询
 
-![image-20240201103608935](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240201103608935.png)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/fc03674e-0d0a-4918-b446-43c8fb3fafbd)
 
 ## Python哈希表及常用操作
 
@@ -50,7 +50,7 @@ for value in hmap.values():
 
 基于数组和链表实现的哈希表， 将键值对作为链表节点，将所有发生冲突的键值对都存储在同一链表中
 
-![image-20240201122048025](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20240201122048025.png)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/3b7d4329-4ddb-4f17-8966-d114c61f1b1f)
 
 基于链式地址实现的哈希表虽能有效的处理哈希冲突，但存在以下局限性:
 
