@@ -1,5 +1,6 @@
 # Computer Science
-![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/09e137bc-1f7e-4b6e-878b-e0278011112e)
+![image](https://github.com/Kainan-Liu/Computer-Science-Foundation/assets/146005327/4c24890a-e39a-42fe-bb49-609bb07d141d)
+
 
 ### Data Structure
 ```rua
